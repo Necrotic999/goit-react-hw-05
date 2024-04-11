@@ -1,0 +1,49 @@
+.go_back_btn {
+  display: flex;
+  color: #fff;
+  background-color: #26a41d;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition-duration: 200ms;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.go_back_btn:hover {
+  background-color: #21ff12;
+}
+
+.movie_wrapper {
+  padding: 20px 20px;
+  display: flex;
+}
+
+.info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+  width: 900px;
+}
+
+.additional_info {
+  margin-left: 20px;
+}
+
+.add_title {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.add_link {
+  font-size: 18px;
+  color: #26a41d;
+  transition-duration: 200ms;
+}
+
+.add_link:hover {
+  color: #21ff12;
+}

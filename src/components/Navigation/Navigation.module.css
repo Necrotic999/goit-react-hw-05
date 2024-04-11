@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-bottom: 2px solid #21ff12;
+  padding: 8px;
+  background-color: #213e1f;
+  margin-bottom: 20px;
+}
+
+.nav_link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  transition-duration: 200ms;
+}
+
+.nav_link:hover {
+  color: #a4f49e;
+}
+
+.active {
+  color: #21ff12;
+}
